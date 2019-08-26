@@ -68,7 +68,8 @@
             ],
             type: 'imagery',
             year: 2019,
-            attribution: 'Imagery 2019'
+            attribution: 'Imagery 2019',
+            zIndex: '2',
           },
           imagery2018: {
             url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2018_3in/MapServer/',
