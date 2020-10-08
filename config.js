@@ -59,6 +59,17 @@
             attribution: 'overwrite',
             zIndex: '2',
           },
+          imagery2020: {
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2020_3in/MapServer/',
+            label: '2020',
+            tiledLayers: [
+              'imageryBasemapLabels',
+              'parcels'
+            ],
+            type: 'imagery',
+            year: 2020,
+            attribution: 'Imagery 2020'
+          },
           imagery2019: {
             url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2019_3in/MapServer/',
             label: '2019',
