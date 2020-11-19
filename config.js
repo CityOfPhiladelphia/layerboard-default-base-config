@@ -4,7 +4,7 @@
       geocoder: {
         url: function (input) {
           var inputEncoded = encodeURIComponent(input);
-          return '//api.phila.gov/ais/v1/search/' + inputEncoded;
+          return 'https://api.phila.gov/ais/v1/search/' + inputEncoded;
         },
         params: {
           gatekeeperKey: opts.gatekeeperKey,
@@ -42,7 +42,7 @@
         },
         basemaps: {
           pwd: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
             tiledLayers: [
               'cityBasemapLabels'
             ],
@@ -51,7 +51,7 @@
             zIndex: '2',
           },
           slate: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Slate/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Slate/MapServer',
             tiledLayers: [
               'cityBasemapLabels'
             ],
@@ -84,7 +84,7 @@
             zIndex: '2',
           },
           imagery2018: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2018_3in/MapServer/',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2018_3in/MapServer/',
             label: '2018',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -96,7 +96,7 @@
             zIndex: '2',
           },
           imagery2017: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2017_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2017_3in/MapServer',
             label: '2017',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -108,7 +108,7 @@
             zIndex: '2',
           },
           imagery2016: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2016_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2016_3in/MapServer',
             label: '2016',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -120,7 +120,7 @@
             zIndex: '2',
           },
           imagery2015: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2015_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2015_3in/MapServer',
             label: '2015',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -132,7 +132,7 @@
             zIndex: '2',
           },
           imagery2012: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2012_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2012_3in/MapServer',
             label: '2012',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -144,7 +144,7 @@
             zIndex: '2',
           },
           imagery2010: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2010_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2010_3in/MapServer',
             label: '2010',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -156,7 +156,7 @@
             zIndex: '2',
           },
           imagery2008: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2008_3in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2008_3in/MapServer',
             label: '2008',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -168,7 +168,7 @@
             zIndex: '2',
           },
           imagery2004: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2004_6in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2004_6in/MapServer',
             label: '2004',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -180,7 +180,7 @@
             zIndex: '2',
           },
           imagery1996: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_1996_6in/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_1996_6in/MapServer',
             label: '1996',
             tiledLayers: [
               'imageryBasemapLabels',
@@ -192,7 +192,7 @@
             zIndex: '2',
           },
           historic1962: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1962/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1962/MapServer',
             label: '1962',
             tiledLayers: [],
             type: 'historic',
@@ -201,7 +201,7 @@
             zIndex: '2',
           },
           historic1942: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1942/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1942/MapServer',
             label: '1942',
             tiledLayers: [],
             type: 'historic',
@@ -210,7 +210,7 @@
             zIndex: '2',
           },
           historic1910: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1910/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1910/MapServer',
             label: '1910',
             tiledLayers: [],
             type: 'historic',
@@ -219,7 +219,7 @@
             zIndex: '2',
           },
           historic1895: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1895/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1895/MapServer',
             label: '1895',
             tiledLayers: [],
             type: 'historic',
@@ -228,7 +228,7 @@
             zIndex: '2',
           },
           historic1875: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricGMHopkinsAtlas_1875/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricGMHopkinsAtlas_1875/MapServer',
             label: '1875',
             tiledLayers: [],
             type: 'historic',
@@ -237,7 +237,7 @@
             zIndex: '2',
           },
           historic1860: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricHexamerLocherAtlas_1860/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricHexamerLocherAtlas_1860/MapServer',
             label: '1860',
             tiledLayers: [],
             type: 'historic',
@@ -257,46 +257,46 @@
         tiledLayers: {
           cityBasemapLabels: {
             // type: 'labels',
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
             zIndex: '4',
             attribution: 'overwrite',
           },
           dorBasemapLabels: {
             // type: 'labels',
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/DORBasemap_Labels_Test2/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/DORBasemap_Labels_Test2/MapServer',
             zIndex: '4',
             attribution: 'overwrite',
           },
           imageryBasemapLabels: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_Labels/MapServer',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_Labels/MapServer',
             zIndex: '4',
             attribution: 'overwrite',
           },
           parcels: {
-            url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/',
+            url: 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/',
             zIndex: '3',
             attribution: 'overwrite',
           },
         },
         dynamicMapLayers: {
           stormwater: {
-            url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data/MapServer',
+            url: 'https://gis.phila.gov/arcgis/rest/services/Water/pv_data/MapServer',
             opacity: 1.0
           },
           zoning: {
-            url: '//gis.phila.gov/arcgis/rest/services/PhilaGov/ZoningMap/MapServer',
+            url: 'https://gis.phila.gov/arcgis/rest/services/PhilaGov/ZoningMap/MapServer',
             opacity: 1.0
           },
         },
         featureLayers: {
           dorParcels: {
-            url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/DOR_Parcel/FeatureServer/0',
+            url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/DOR_Parcel/FeatureServer/0',
           },
           pwdParcels: {
-            url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
+            url: 'https://gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
           },
           vacantLand: {
-            url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Land/FeatureServer/0',
+            url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Land/FeatureServer/0',
             color: 'orange',
             fillColor: 'orange',
             fillOpacity: 0.5,
@@ -304,7 +304,7 @@
             minZoom: 16
           },
           vacantBuilding: {
-            url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Bldg/FeatureServer/0',
+            url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Bldg/FeatureServer/0',
             color: 'purple',
             fillColor: 'purple',
             fillOpacity: 0.5,
@@ -314,7 +314,7 @@
         },
       },
       carto: {
-        baseUrl: '//phl.carto.com/api/v2/sql',
+        baseUrl: 'https://phl.carto.com/api/v2/sql',
       },
     };
   }
